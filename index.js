@@ -1,4 +1,6 @@
 /**
+ * License: LGPL-3.0
+ * 
  * Returns closest value to input in given range
  * @author: Gary Kim
  * @param {number} input

@@ -1,0 +1,17 @@
+{
+  "name": "get-in-range",
+  "version": "0.1.0",
+  "description": "Returns the value closest to the input value in given range",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gary-kim/get-in-range.git"
+  },
+  "author": "Gary Kim",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gary-kim/get-in-range/issues"
+  },
+  "homepage": "https://github.com/gary-kim/get-in-range#readme"
+}

@@ -8,7 +8,7 @@ max: Maximum value of range
 
 onerr (optional): Set to true to return NaN instead of throwing error
 
-getInRange(input, min, max[, onerr]) => number
+``getInRange(input, min, max[, onerr]) => number``
 
 ## License
 

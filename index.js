@@ -1,20 +1,27 @@
 /**
- * gets closest value to input in given range
+ * Returns closest value to input in given range
  * @author: Gary Kim
  * @param {number} input
- * @param {number} min minimum value of range
- * @param {number} max maximum value of range
- * @returns {number} closest value to input in given range
+ * @param {number} min Minimum value of range
+ * @param {number} max Maximum value of range
+ * @param {boolean} [onerr] Return NaN instead of throwing error.
+ * @returns {number} Closest value to input in given range
  */
-function getInRange(input, min, max)    {
+function getInRange(input, min, max, onerr)    {
 
     pinput = parseFloat(input);
     pmin = parseFloat(min);
     pmax = parseFloat(max);
 
-    if( !pmin || !pmax || !pinput ) throw "given a arguumnt that is NaN";
+    if( isNaN(pmin) || isNaN(pmax) || isNaN(pinput) ) {
+        if(onerr) return NaN;
+        throw "given a argument that is NaN";
+    }
 
-    if(pmin > pmax) throw "provided minimum value is larger then maximum value";
+    if(pmin > pmax) {
+        if(onerr) return NaN;
+        throw "provided minimum value is larger then maximum value";
+    }
 
     if(pinput <= pmin) return pmin;
 

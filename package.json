@@ -1,6 +1,6 @@
 {
   "name": "get-in-range",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Returns the value closest to the input value in given range",
   "main": "index.js",
   "scripts": {},

@@ -1,8 +1,12 @@
 /**
- * License: LGPL-3.0
  * 
+ * @license LGPL-3.0
+ * @author Gary Kim
+ */
+
+/**
  * Returns closest value to input in given range
- * @author: Gary Kim
+ * 
  * @param {number} input
  * @param {number} min Minimum value of range
  * @param {number} max Maximum value of range

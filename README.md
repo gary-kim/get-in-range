@@ -1,14 +1,19 @@
 # get-in-range
 
-input: Given input
 
-min: Minimum value of range
+input      | min      | max      | onerr (optional)
+-----------|----------|----------|--------
+Given input | Minimum value of range | Maximum value of range | set to true to return NaN insted of throwing error
 
-max: Maximum value of range
+```getInRange(input, min, max[, onerr]) => number```
 
-onerr (optional): Set to true to return NaN instead of throwing error
+```
+const gir = require('get-in-range);
 
-``getInRange(input, min, max[, onerr]) => number``
+gir(10,5,20) => 10
+gir(30,5,20) => 20
+gir(-20,-5,25) => -5
+```
 
 ## License
 

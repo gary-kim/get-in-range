@@ -1,5 +1,5 @@
 /**
- * 
+ * @file Main file of get-in-range
  * @license LGPL-3.0
  * @author Gary Kim
  */

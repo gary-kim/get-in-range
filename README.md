@@ -8,7 +8,7 @@ Given input | Minimum value of range | Maximum value of range | set to true to r
 ```getInRange(input, min, max[, onerr]) => number```
 
 ```
-const gir = require('get-in-range);
+const gir = require('get-in-range');
 
 gir(10,5,20) => 10
 gir(30,5,20) => 20

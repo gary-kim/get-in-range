@@ -3,7 +3,7 @@
 
 input      | min      | max      | onerr (optional)
 -----------|----------|----------|--------
-Given input | Minimum value of range | Maximum value of range | set to true to return NaN insted of throwing error
+Given input | Minimum value of range | Maximum value of range | set to true to return NaN instead of throwing error
 
 ```getInRange(input, min, max[, onerr]) => number```
 

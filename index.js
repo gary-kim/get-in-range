@@ -15,9 +15,9 @@
  */
 function getInRange(input, min, max, onerr)    {
 
-    pinput = parseFloat(input);
-    pmin = parseFloat(min);
-    pmax = parseFloat(max);
+    let pinput = parseFloat(input);
+    let pmin = parseFloat(min);
+    let pmax = parseFloat(max);
 
     if( isNaN(pmin) || isNaN(pmax) || isNaN(pinput) ) {
         if(onerr) return NaN;
